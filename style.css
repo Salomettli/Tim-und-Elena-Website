@@ -1,18 +1,23 @@
-html {
-  background-color: rgb(241, 241, 241);
-  width: 100%;
-}
-
 body {
+  /* Hintergrundfarbe */
+  background-color: #eee;
+
+  /* alle Elemente untereinander */
   display: flex;
-  min-height: 100vh;
-  margin: 0 auto;
   flex-direction: column;
+
+  /* Footer immer am unteren Rand */
+  min-height: 100vh;
+
+  /* Links und Rechts der gleiche Abstand */
+  margin: 0 auto;
+
+  /* Breite der Webseite 80% (maximal 1200px) */
   width: 80vw;
   max-width: 1200px;
 }
- 
+
 main {
-  min-height: 5em;
+  /* Footer immer am unteren Rand */
   flex: 1;
 }
